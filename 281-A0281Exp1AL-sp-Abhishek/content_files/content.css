@@ -1,0 +1,2399 @@
+.main_Div{
+	width:100%;
+}
+.t1 {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.t1 td {
+    padding-bottom: 0.4em;
+}
+.svg_sub{
+	display:inline;
+}
+.done1 {
+    width: 10%;
+    float: none;
+    margin-left: 10%;
+}
+.wrap{
+	white-space:nowrap;
+}
+.inputAndDoneSpace {
+	position: absolute;
+	bottom: 2%;
+	left: 4%;
+	width:auto;
+}
+.p_correct {
+	color:#00F;
+	font-weight:bold;
+	font-family: arial;
+	display:none;
+}
+.remark {
+	width:100%;
+}
+.SolutionRemark {
+    background-color: transparent;
+    z-index: 2;
+}
+.solutionMainSteps {
+	width:100%;
+}
+.new_h {
+	position:relative;
+}
+.clear {
+	margin-left:5%;
+}
+.Step1, .Step2 {
+	margin-top: 44px;
+}
+.hidden {
+	visibility:hidden;
+}
+.Mrgntop {
+	margin-top:25px;
+}
+tr, td {
+/*border:1px solid #CCC;*/
+}
+.opac {
+	visibility:hidden;
+}
+.bold {
+	font-weight:bold;
+}
+.undrlin {
+	text-decoration:underline;
+}
+.t_c {
+	text-align:center;
+}
+.bold1 {
+	text-align:center;
+}
+.steps {
+	height:35px;
+}
+.step1, .step2, .step3, .step4, .step5 {
+	width: 10%;
+	margin-left: 7%;
+}
+.step1, .step2, .step3, .step4, .step5 {
+	width:8%;
+	margin-left:9%;
+	background-color:#D5F3FD;
+	text-align:center;
+	border:1px solid #2FCEF0;
+	cursor:default;
+	color:#C00;
+	font-weight:bold;
+	float:left;
+	display:inline-block;
+	cursor:default;
+}
+/*for number line*/
+.lined {
+	cursor:pointer;
+}
+/*.tickMark{
+display:none;	
+}
+*/
+.fill_color, .fill_color1, .fill_color2 {
+	opacity:0;
+}
+.filled_dot, .blank_dot, .filled_dot1, .blank_dot1, .ans_blank_dot1, .ans_fill_color1, .ans_fill_color, .ans_filled_dot1, .ans_blank_dot, .ans_filled_dot, .new_comm, .new_comm1 {
+	display:none;
+}
+/*.blank_br_open,.blank_br_open1,.blank_br_close,.blank_br_close1,.filled_br_open,.filled_br_open1,.filled_br_close,.filled_br_close1{
+display:none;		
+	}*/
+.blank_dot_btn_img, .filled_dot_btn_img, .left_btn_img, .right_btn_img, .reset_btn_img, .blank_br_open_img, .blank_br_close_img, .filled_br_open_img, .filled_br_close_img {
+	height:15px;
+	width:15px;
+}
+.blank_dot_btn, .filled_dot_btn, .left, .right, .reset, .blank_br_open_btn, .blank_br_close_btn, .filled_br_open_btn, .filled_br_close_btn {
+	cursor:pointer;
+}
+.buttons {
+	margin-left: 190px;
+}
+/*end number line*/
+.svg_result {
+    width: 40%;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.svg_table {
+	width:77%;
+}
+.svg_td1 {
+    width: 90%;
+}
+.svg_td2 {
+	width:15%;
+	position:relative;
+}
+.svg_div {
+	width:100%;
+}
+/*.svg_td3{
+width:15%;	
+}
+*/.svg_buttons {
+	margin-left:28%;
+}
+.doneDiv {
+	width:30%;
+	float:left;
+}
+.container {
+	overflow-y: auto;
+}
+.bold {
+	font-weight:bold;
+}
+.margin_btwn {
+	margin-left:5%;
+	margin-right:5%;
+}
+.question_table {
+	width:100%;
+}
+.td1 {
+	width:55%;
+}
+.td2 {
+	width:5%;
+	text-align:center;
+}
+.td3 {
+	width:30%;
+}
+.td4 {
+	width:10%;
+	position:relative;
+}
+/*.td6{
+width:15%;		
+}*/
+.svg_tick {
+	width: 22%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.ans_tick {
+	width:23%;
+	position:absolute;
+	top:25%;
+	left:0;
+}
+.ans_wrong_tick, .ans_correct_tick, .svg_correct_tick, .svg_wrong_tick {
+	display:none;
+}
+.svg_check, .ans_check {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 5px 22px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	border-radius:5px;
+	cursor: pointer;
+}
+.align_center {
+	text-align:center;
+}
+.p_absolute {
+	position:absolute;
+}
+.p_relative {
+	position:relative;
+}
+.left_num {
+	top:30%;
+	left:-21%;
+}
+.right_num {
+	top:30%;
+	left:21%;
+}
+.padding_top {
+	padding-top:2%;
+}
+.howTo_button {
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+    background-color: #09F;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    margin-left: 5%;
+}
+.howTo {
+	float: right;
+	position: fixed;
+	right: 7%;
+	z-index: 5;
+}
+.container {
+	position:relative;
+}
+.howTo_div {
+	padding-left: 5px;
+	padding-bottom: 5px;
+	background-color: white;
+	position: fixed;
+	right: 41%;
+	z-index: 5;
+	width: auto;
+	border: 1px solid black;
+	line-height:130%;
+	font-size:.8em;
+}
+.step_cross_stp {
+	float:left;
+	color:#C00;
+}
+.step_cross_img {
+	width:8%;
+	float:right;
+	cursor:pointer;
+}
+.howTo_list {
+	clear:both;
+	padding-right:5px;
+}
+ul {
+	list-style-position: inside;
+}
+.howTo_div {
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid black;
+	background-color:white;
+}
+.main_solution {
+	width:19%;
+	margin-left:7%;
+}
+/*.new_table tr td{
+	border:2px solid black;
+}
+*/
+.new_table td {
+	text-align:center;
+	padding-top:2%;
+}
+.new_table {
+	width:100%;
+}
+.new_table .td101 {
+	width:20%;
+}
+.new_table .td22 {
+	width:20%;
+}
+.new_table .td33 {
+	width:20%;
+}
+.new_table .td44 {
+	width:20%;
+}
+.new_table .td55 {
+	width:20%;
+}
+.row_4 {
+	color:#C00;
+}
+.main_middle {
+	display: block;
+}
+.reset {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    vertical-align: middle;
+    font-size: .6em;
+    width: 10%;
+    height: 28px;
+    margin-left: 10%;
+}
+.lined, .lined1 {
+	font-size:.8em;
+}
+.svg_bt{
+	
+}
+ @media (min-width: 450px) and (max-width: 530px) {
+}
+ @media (min-width: 531px) and (max-width: 610px) {
+.inputAndDoneSpace {
+ position: absolute;
+ bottom: 0%;
+ left: 0;
+ width: auto;
+ float: left;
+ margin-left: 0%;
+}
+ .blank_dot_btn_img, .filled_dot_btn_img, .left_btn_img, .right_btn_img, .reset_btn_img, .blank_br_open_img, .blank_br_close_img, .filled_br_open_img, .filled_br_close_img {
+ height: 12px;
+ width: 12px;
+}
+.reset {
+height:18px;
+font-size:.9em;
+ width: 13%;
+}
+ .done1 {
+ width: 13%;
+height:19px;
+}
+.lined, .lined1 {
+ font-size: 2em;
+}
+ .howTo_button {
+ border: none;
+ padding: 2px;
+ cursor: pointer;
+ background-color: #09F;
+ color: white;
+ border: none;
+ border-radius: 2px;
+ font-size: 9px;
+}
+.btn_h {
+height:17px;
+}
+.howTo_button {
+font-size:7px;
+}
+ .svg_buttons {
+ margin-left: 14%;
+}
+.howTo_button {
+margin-left:27%;
+}
+.ClickToAnsDiv {
+margin-bottom:2%;
+}
+ .inputAndDoneSpace {
+ margin-left: 14%;
+ margin-bottom: 2%;
+}
+.howTo_button {
+    margin-left: 4%;
+}
+.blankMessage_New {
+    margin-top: 0px;
+    margin-left: 32%;
+}
+}
+ @media (min-width: 611px) and (max-width: 690px) {
+.clear {
+ margin-left: 22%;
+}
+ .inputAndDoneSpace {
+ position: absolute;
+ bottom: 0%;
+ left: 0;
+ width: auto;
+ float: left;
+ margin-left: 0%;
+}
+ .blank_dot_btn_img, .filled_dot_btn_img, .left_btn_img, .right_btn_img, .reset_btn_img, .blank_br_open_img, .blank_br_close_img, .filled_br_open_img, .filled_br_close_img {
+ height: 12px;
+ width: 12px;
+}
+.reset {
+height:18px;
+font-size:.9em;
+ width: 13%;
+}
+ .done1 {
+ width: 13%;
+height:19px;
+}
+.lined, .lined1 {
+ font-size: 1.6em;
+}
+ .howTo_button {
+ border: none;
+ padding: 2px;
+ cursor: pointer;
+ background-color: #09F;
+ color: white;
+ border: none;
+ border-radius: 2px;
+ font-size: 9px;
+}
+.btn_h {
+height:17px;
+}
+.svg_result {
+ width: 49%;
+ margin-top: 0%;
+}
+.howTo_button {
+font-size:9px;
+}
+ .svg_buttons {
+ margin-left: 18%;
+}
+.howTo_button {
+margin-left:27%;
+}
+.ClickToAnsDiv {
+margin-bottom:1%;
+margin-top:3%;
+}
+.howTo_button {
+margin-top:3%;
+}
+ .inputAndDoneSpace {
+ margin-left: 14%;
+ margin-bottom: 2%;
+}
+ .reset {
+ margin-left:6%;
+}
+.howTo_button {
+    margin-left: 4%;
+}
+.reset {
+    margin-left: 4%;
+}
+.blankMessage_New{
+    margin-top: 0px;
+    margin-left: 32%;
+}
+}
+ @media (min-width: 691px) and (max-width: 770px) {
+.clear {
+ margin-left: 22%;
+}
+ .inputAndDoneSpace {
+ position: absolute;
+ bottom: 0%;
+ left: 0;
+ width: auto;
+ float: left;
+ margin-left: 0%;
+}
+ .blank_dot_btn_img, .filled_dot_btn_img, .left_btn_img, .right_btn_img, .reset_btn_img, .blank_br_open_img, .blank_br_close_img, .filled_br_open_img, .filled_br_close_img {
+ height: 12px;
+ width: 12px;
+}
+.reset {
+height:18px;
+font-size:.7em;
+ width: 13%;
+}
+ .done1 {
+ width: 13%;
+height:19px;
+}
+.lined, .lined1 {
+ font-size: 1.4em;
+}
+ .howTo_button {
+ border: none;
+ padding: 2px;
+ cursor: pointer;
+ background-color: #09F;
+ color: white;
+ border: none;
+ border-radius: 2px;
+ font-size: 9px;
+}
+.btn_h {
+height:17px;
+}
+.svg_result {
+ width: 49%;
+ margin-top: 0%;
+}
+.howTo_button {
+font-size:9px;
+}
+ .svg_buttons {
+ margin-left: 18%;
+}
+.howTo_button {
+    margin-left: 6%;
+}
+.ClickToAnsDiv {
+margin-bottom:1%;
+margin-top:3%;
+}
+.howTo_button {
+margin-top:3%;
+}
+ .inputAndDoneSpace {
+ margin-left: 14%;
+ margin-bottom: 2%;
+}
+ .reset {
+ margin-left:6%;
+}
+ .blankMessage_New, .incomplete_New {
+margin-top:0px;
+}
+}
+ @media (min-width: 771px) and (max-width: 850px) {
+.clear {
+ margin-left: 22%;
+}
+ .inputAndDoneSpace {
+ position: absolute;
+ bottom: 0%;
+ left: 0;
+ width: auto;
+}
+ .inputAndDoneSpace {
+ float: left;
+ margin-left: 0%;
+}
+ .blank_dot_btn_img, .filled_dot_btn_img, .left_btn_img, .right_btn_img, .reset_btn_img, .blank_br_open_img, .blank_br_close_img, .filled_br_open_img, .filled_br_close_img {
+ height: 12px;
+ width: 12px;
+}
+.reset {
+height:18px;
+font-size:.6em;
+ width: 13%;
+}
+ .done1 {
+ width: 13%;
+height:19px;
+}
+.lined, .lined1 {
+ font-size: 1.1em;
+}
+ .howTo_button {
+ border: none;
+ padding: 2px;
+ cursor: pointer;
+ background-color: #09F;
+ color: white;
+ border: none;
+ border-radius: 2px;
+ font-size: 11px;
+}
+.btn_h {
+height:17px;
+}
+.svg_result {
+ width: 49%;
+ margin-top: 0%;
+}
+ .svg_buttons {
+ margin-left: 18%;
+}
+.howTo_button {
+    margin-left: 6%;
+}
+.ClickToAnsDiv {
+margin-bottom:1%;
+margin-top:3%;
+}
+.howTo_button {
+margin-top:3%;
+}
+ .inputAndDoneSpace {
+ margin-left: 14%;
+ margin-bottom: 2%;
+}
+ .reset {
+ margin-left:6%;
+}
+.blankMessage_New, .incomplete_New {
+margin-top:0px;
+}
+}
+ @media (min-width: 851px) and (max-width: 930px) {
+.clear {
+ margin-left: 22%;
+}
+ .inputAndDoneSpace {
+ position: absolute;
+ bottom: 0%;
+ left: 0;
+ width: auto;
+ float: left;
+ margin-left: 0%;
+}
+ .blank_dot_btn_img, .filled_dot_btn_img, .left_btn_img, .right_btn_img, .reset_btn_img, .blank_br_open_img, .blank_br_close_img, .filled_br_open_img, .filled_br_close_img {
+ height: 12px;
+ width: 12px;
+}
+.reset {
+height:18px;
+font-size:.6em;
+ width: 13%;
+}
+ .done1 {
+ width: 13%;
+height:19px;
+}
+.lined, .lined1 {
+ font-size: 1.1em;
+}
+ .howTo_button {
+ border: none;
+ padding: 2px;
+ cursor: pointer;
+ background-color: #09F;
+ color: white;
+ border: none;
+ border-radius: 2px;
+ font-size: 11px;
+}
+.btn_h {
+height:17px;
+}
+.svg_result {
+ width: 49%;
+ margin-top: 0%;
+}
+ .svg_buttons {
+ margin-left: 18%;
+}
+.howTo_button {
+    margin-left: 6%;
+}
+.ClickToAnsDiv {
+margin-bottom:1%;
+margin-top:3%;
+}
+.howTo_button {
+margin-top:3%;
+}
+ .inputAndDoneSpace {
+ margin-left: 14%;
+ margin-bottom: 2%;
+}
+ .reset {
+ margin-left:6%;
+}
+.blankMessage_New, .incomplete_New {
+margin-top:0px;
+}
+}
+ @media (min-width: 931px) and (max-width: 1010px) {
+.clear {
+ margin-left: 22%;
+}
+ .inputAndDoneSpace {
+ position: absolute;
+ bottom: 0%;
+ left: 0;
+ width: auto;
+ float: left;
+ margin-left: 0%;
+}
+ .blank_dot_btn_img, .filled_dot_btn_img, .left_btn_img, .right_btn_img, .reset_btn_img, .blank_br_open_img, .blank_br_close_img, .filled_br_open_img, .filled_br_close_img {
+ height: 12px;
+ width: 12px;
+}
+.reset {
+height:18px;
+font-size:.6em;
+ width: 10%;
+}
+ .done1 {
+ width: 10%;
+height:22px;
+}
+.lined, .lined1 {
+ font-size: 1em;
+}
+ .howTo_button {
+ border: none;
+ padding: 2px;
+ cursor: pointer;
+ background-color: #09F;
+ color: white;
+ border: none;
+ border-radius: 2px;
+ font-size: 11px;
+}
+.btn_h {
+height:17px;
+}
+.svg_result {
+ width: 49%;
+ margin-top: 0%;
+}
+ .svg_buttons {
+ margin-left: 18%;
+}
+.howTo_button {
+    margin-left: 6%;
+}
+.ClickToAnsDiv {
+margin-bottom:1%;
+margin-top:3%;
+}
+.howTo_button {
+margin-top:4%;
+}
+ .inputAndDoneSpace {
+ margin-left: 14%;
+ margin-bottom: 2%;
+}
+ .reset {
+ margin-left:6%;
+}
+.blankMessage_New, .incomplete_New {
+margin-top:0px;
+}
+}
+ @media (min-width: 1011px) and (max-width: 1100px) {
+.clear {
+ margin-left: 22%;
+}
+ .inputAndDoneSpace {
+ position: absolute;
+ bottom: 0%;
+ left: 0;
+ width: auto;
+ float: left;
+ margin-left: 0%;
+}
+ .blank_dot_btn_img, .filled_dot_btn_img, .left_btn_img, .right_btn_img, .reset_btn_img, .blank_br_open_img, .blank_br_close_img, .filled_br_open_img, .filled_br_close_img {
+ height: 12px;
+ width: 12px;
+}
+.reset {
+font-size:.6em;
+ width: 10%;
+}
+ .done1 {
+ width: 10%;
+}
+.lined, .lined1 {
+ font-size: 1em;
+}
+ .howTo_button {
+ border: none;
+ padding: 2px;
+ cursor: pointer;
+ background-color: #09F;
+ color: white;
+ border: none;
+ border-radius: 2px;
+ font-size: 13px;
+}
+.btn_h {
+height:17px;
+}
+.svg_result {
+ width: 49%;
+ margin-top: 0%;
+}
+ .svg_buttons {
+ margin-left: 18%;
+}
+.howTo_button {
+margin-left:6%;
+}
+.ClickToAnsDiv {
+margin-bottom:1%;
+margin-top:3%;
+}
+.howTo_button {
+margin-top:4%;
+}
+ .inputAndDoneSpace {
+ margin-left: 14%;
+ margin-bottom: 2%;
+}
+ .reset {
+ margin-left:6%;
+}
+.blankMessage_New, .incomplete_New {
+margin-top:0px;
+}
+}
+ @media (min-width: 1101px) and (max-width: 1285px) {
+ .clear {
+ margin-left:5%;
+}
+.lined, .lined1 {
+ font-size: .9em;
+}
+.blank_dot_btn, .filled_dot_btn, .left, .right, .blank_br_open_btn, .blank_br_close_btn, .filled_br_open_btn, .filled_br_close_btn {
+cursor:pointer;
+width:5%;
+padding:.4%;
+}
+ .svg_buttons {
+ margin-left: 10%;
+}
+.reset {
+margin-left:6%;
+}
+ .howTo_div {
+line-height:154%;
+}
+ .inputAndDoneSpace {
+ margin-left: 0%;
+ margin-bottom: 0%;
+}
+.t1 {
+    width: 69%;
+    margin-left: auto;
+    margin-right: auto;
+}.howTo_button {
+    margin-left: 6%;
+}
+}
+ @media (min-width: 1286px) and (max-width: 1400px) {
+.blank_dot_btn, .filled_dot_btn, .left, .right, .blank_br_open_btn, .blank_br_close_btn, .filled_br_open_btn, .filled_br_close_btn {
+cursor:pointer;
+width:4%;
+padding:.3%;
+}
+.svg_buttons {
+ margin-left: 15%;
+}
+.inputAndDoneSpace {
+ margin-left: 0%;
+}
+ .inputAndDoneSpace {
+ margin-left: 0%;
+ margin-bottom: 0%;
+}
+.blankMessage_New {
+    width: auto;
+    margin-left: 24%;
+}
+}
+ @media (min-width: 1401px) and (max-width: 1550px) {
+.clear {
+ margin-left: 5%;
+}
+ .inputAndDoneSpace {
+ margin-left: 0%;
+ margin-bottom: 0%;
+}
+.t1 {
+    width: 82%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.svg_result {
+    width: 40%;
+}
+.blank_dot_btn_img, .filled_dot_btn_img, .left_btn_img, .right_btn_img, .reset_btn_img, .blank_br_open_img, .blank_br_close_img, .filled_br_open_img, .filled_br_close_img {
+    height: 17px;
+    width: 17px;
+}
+.blankMessage_New {
+    width: auto;
+    margin-left: 30%;
+}
+}
+ @media (min-width: 1551px) and (max-width: 1700px) {
+.clear {
+ margin-left: 5%;
+}
+.inputAndDoneSpace {
+ position: absolute;
+ bottom: 0%;
+ right: 0;
+ width: auto;
+}
+.svg_result {
+ margin-top: 1%;
+}
+ .inputAndDoneSpace {
+ margin-left: 10%;
+ margin-bottom: 0%;
+}
+.blank_dot_btn_img, .filled_dot_btn_img, .left_btn_img, .right_btn_img, .reset_btn_img, .blank_br_open_img, .blank_br_close_img, .filled_br_open_img, .filled_br_close_img {
+    height: 19px;
+    width: 19px;
+}
+.blankMessage_New {
+    width: auto;
+    margin-left: 30%;
+}
+}
+ @media (min-width: 1701px) and (max-width: 1850px) {
+.clear {
+ margin-left: 5%;
+}
+ .inputAndDoneSpace {
+ margin-left: 0%;
+ margin-bottom: 0%;
+}
+.blank_dot_btn_img, .filled_dot_btn_img, .left_btn_img, .right_btn_img, .reset_btn_img, .blank_br_open_img, .blank_br_close_img, .filled_br_open_img, .filled_br_close_img {
+    height: 20px;
+    width: 20px;
+}
+.blankMessage_New {
+    width: auto;
+    margin-left: 30%;
+}
+}
+ @media (min-width: 1851px) and (max-width: 2000px) {
+.clear {
+ margin-left: 5%;
+}
+.lined, .lined1 {
+font-size:.6em;
+}
+.svg_result {
+ width: 35%;
+ margin-top: 1%;
+}
+ .inputAndDoneSpace {
+ margin-left: 0%;
+ margin-bottom: 0%;
+}
+.blank_dot_btn_img, .filled_dot_btn_img, .left_btn_img, .right_btn_img, .reset_btn_img, .blank_br_open_img, .blank_br_close_img, .filled_br_open_img, .filled_br_close_img {
+    height: 20px;
+    width: 20px;
+}
+.blankMessage_New {
+    width: auto;
+    margin-left: 30%;
+}
+}
+ @media (min-width: 2001px) {
+.clear {
+ margin-left: 5%;
+}
+.lined, .lined1 {
+font-size:.6em;
+}
+ .inputAndDoneSpace {
+ margin-left: 10%;
+ margin-bottom: 0%;
+}
+.blankMessage_New {
+    width: auto;
+    margin-left: 30%;
+}
+.blank_dot_btn_img, .filled_dot_btn_img, .left_btn_img, .right_btn_img, .reset_btn_img, .blank_br_open_img, .blank_br_close_img, .filled_br_open_img, .filled_br_close_img {
+    height: 24px;
+    width: 24px;
+}
+}
+ @media (min-width: 320px) and (max-width: 370px) and (orientation:portrait) {
+ .clear {
+ margin-left: 22%;
+}
+.input {
+float:right;
+}
+.InputAndDoneTbl {
+width:100%;
+}
+.device_x {
+width:5%;
+}
+.InptDnTd1 {
+width:65%;
+}
+.device_tick {
+width:5%;
+position:relative;
+}
+.InptDnTd2 {
+width:35%;
+}
+.doneDiv {
+ width: 100%;
+ float: left;
+}
+ .done1 {
+ width: 100%;
+ float: none;
+}
+.ans_tick {
+width:100%;
+}
+.svg_tick {
+ width: 42%;
+}
+ .svg_table {
+ width: 100%;
+}
+.lined, .lined1 {
+ font-size: 1.7em;
+}
+.blank_dot_btn_img, .filled_dot_btn_img, .left_btn_img, .right_btn_img, .reset_btn_img, .blank_br_open_img, .blank_br_close_img, .filled_br_open_img, .filled_br_close_img {
+ height: 11px;
+ width: 11px;
+}
+.btn_h {
+height:17px;
+}
+.svg_buttons {
+ margin-left: 10%;
+}
+.reset {
+ font-size: .7em;
+ width: 17%;
+ height: 15px;
+ margin-left: 10%;
+ vertical-align:top;
+}
+.howTo_button {
+font-size:8px;
+padding:2px;
+}
+ .inputAndDoneSpace {
+ position: absolute;
+ bottom: 0%;
+ left: 0;
+ width: auto;
+ margin-left: -25%;
+}
+.svg_result {
+ width: 70%;
+}
+.main_solution {
+ width: 38%;
+ margin-left: 3%;
+}
+ .svg_buttons {
+ margin-left: 4%;
+}
+.howTo_button {
+margin-top:3%;
+margin-left:6%;
+}
+.ClickToAnsDiv {
+margin-bottom:2%;
+}
+ .inputAndDoneSpace {
+ margin-left: 1%;
+ margin-bottom: 0%;
+}
+.reset {
+    width: 21%;
+    height: 15px;
+    margin-top: 5px;
+	margin-left: 6%;
+    vertical-align: super;
+}
+.done1 {
+    width: 21%;
+    height: 17px;
+    margin-top: 6px;
+    vertical-align: super;
+}
+.howTo_button {
+    margin-left: 6%;
+    vertical-align: super;
+}
+.t1 {
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blankMessage_New, .incomplete_New {
+    margin-top: 0px;
+    margin-left: 41%;
+}
+.svg_sub {
+    display: block;
+}
+}
+ @media (min-width: 371px) and (max-width: 420px) and (orientation:portrait) {
+ .clear {
+ margin-left: 22%;
+}
+.input {
+float:right;
+}
+.InputAndDoneTbl {
+width:100%;
+}
+.device_x {
+width:5%;
+}
+.InptDnTd1 {
+width:60%;
+}
+.device_tick {
+width:10%;
+position:relative;
+}
+.InptDnTd2 {
+width:35%;
+}
+.input {
+ width: 100%;
+}
+ .doneDiv {
+ width: 75%;
+ float: left;
+}
+.done1 {
+    width: 17%;
+    float: none;
+    height: 17px;
+    vertical-align: middle;
+}
+ .ans_tick {
+width:57%;
+ left: 25%;
+}
+.svg_tick {
+ width: 42%;
+}
+ .svg_table {
+ width: 100%;
+}
+.lined, .lined1 {
+ font-size: 1.7em;
+}
+.blank_dot_btn_img, .filled_dot_btn_img, .left_btn_img, .right_btn_img, .reset_btn_img, .blank_br_open_img, .blank_br_close_img, .filled_br_open_img, .filled_br_close_img {
+ height: 11px;
+ width: 11px;
+}
+.btn_h {
+height:17px;
+}
+.svg_buttons {
+ margin-left: 10%;
+}
+.reset {
+    font-size: .7em;
+    width: 17%;
+    height: 15px;
+    margin-left: 6%;
+    vertical-align: middle;
+}
+.howTo_button {
+font-size:8px;
+padding:2px;
+}
+ .inputAndDoneSpace {
+ position: absolute;
+ bottom: 0%;
+ left: 0;
+ width: auto;
+ margin-left: -25%;
+}
+.svg_result {
+ width: 70%;
+}
+.main_solution {
+ width: 38%;
+ margin-left: 3%;
+}
+.inputAndDoneSpaceFordevice {
+ margin-left: 0px;
+}
+ .svg_buttons {
+ margin-left: 4%;
+}
+.howTo_button {
+margin-top:3%;
+margin-left:6%;
+}
+.ClickToAnsDiv {
+margin-top: 3%;
+margin-bottom:2%;
+}
+ .inputAndDoneSpace {
+ margin-left: 1%;
+ margin-bottom: 2%;
+}
+.t1 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blankMessage_New, .incomplete_New {
+    margin-top: 0px;
+}
+.svg_sub {
+    display: block;
+}
+}
+ @media (min-width: 421px) and (max-width: 470px) and (orientation:portrait) {
+ .clear {
+ margin-left: 22%;
+}
+.input {
+float:right;
+}
+.InputAndDoneTbl {
+width:100%;
+}
+.device_x {
+width:5%;
+}
+.InptDnTd1 {
+width:60%;
+}
+.device_tick {
+width:10%;
+position:relative;
+}
+.InptDnTd2 {
+width:35%;
+}
+.input {
+ width: 100%;
+}
+ .doneDiv {
+ width: 75%;
+ float: left;
+}
+.done1 {
+    width: 17%;
+    float: none;
+    height: 17px;
+    vertical-align: middle;
+}
+ .ans_tick {
+width:57%;
+ left: 25%;
+}
+.svg_tick {
+ width: 42%;
+}
+ .svg_table {
+ width: 100%;
+}
+.lined, .lined1 {
+ font-size: 1.4em;
+}
+.blank_dot_btn_img, .filled_dot_btn_img, .left_btn_img, .right_btn_img, .reset_btn_img, .blank_br_open_img, .blank_br_close_img, .filled_br_open_img, .filled_br_close_img {
+ height: 11px;
+ width: 11px;
+}
+.btn_h {
+height:17px;
+}
+.svg_buttons {
+ margin-left: 10%;
+}
+.reset {
+    font-size: .7em;
+    width: 17%;
+    height: 15px;
+    margin-left: 6%;
+    vertical-align: middle;
+}
+.howTo_button {
+font-size:8px;
+padding:2px;
+}
+ .inputAndDoneSpace {
+ position: absolute;
+ bottom: 0%;
+ left: 0;
+ width: auto;
+ margin-left: -25%;
+}
+.svg_result {
+ width: 70%;
+}
+.main_solution {
+ width: 38%;
+ margin-left: 3%;
+}
+.inputAndDoneSpaceFordevice {
+ margin-left: 0px;
+}
+ .svg_buttons {
+ margin-left: 4%;
+}
+.howTo_button {
+    margin-top: 3%;
+    margin-left: 6%;
+}
+.ClickToAnsDiv {
+margin-top: 3%;
+margin-bottom:2%;
+}
+ .inputAndDoneSpace {
+ margin-left: 1%;
+ margin-bottom: 2%;
+}
+.blankMessage_New, .incomplete_New {
+    margin-top: 0px;
+}
+.t1 {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.svg_sub {
+    display: block;
+}
+}
+ @media (min-width: 471px) and (max-width: 520px) and (orientation:portrait) {
+ .clear {
+ margin-left: 22%;
+}
+.input {
+float:right;
+}
+.InputAndDoneTbl {
+width:100%;
+}
+.device_x {
+width:5%;
+}
+.InptDnTd1 {
+width:60%;
+}
+.device_tick {
+width:10%;
+position:relative;
+}
+.InptDnTd2 {
+width:35%;
+}
+.input {
+ width: 100%;
+}
+ .doneDiv {
+ width: 75%;
+ float: left;
+}
+.done1 {
+    width: 17%;
+    float: none;
+    height: 19px;
+    vertical-align: middle;
+}
+ .ans_tick {
+width:57%;
+ left: 25%;
+}
+.svg_tick {
+ width: 42%;
+}
+ .svg_table {
+ width: 100%;
+}
+.lined, .lined1 {
+ font-size: 1.4em;
+}
+.blank_dot_btn_img, .filled_dot_btn_img, .left_btn_img, .right_btn_img, .reset_btn_img, .blank_br_open_img, .blank_br_close_img, .filled_br_open_img, .filled_br_close_img {
+ height: 11px;
+ width: 11px;
+}
+.btn_h {
+height:17px;
+}
+.svg_buttons {
+ margin-left: 10%;
+}
+.reset {
+    font-size: .7em;
+    width: 17%;
+    height: 18px;
+    margin-left: 10%;
+    vertical-align: middle;
+}
+.howTo_button {
+font-size:10px;
+padding:2px;
+}
+ .inputAndDoneSpace {
+ position: absolute;
+ bottom: 0%;
+ left: 0;
+ width: auto;
+ margin-left: -25%;
+}
+.svg_result {
+ width: 70%;
+}
+.main_solution {
+ width: 38%;
+ margin-left: 3%;
+}
+.inputAndDoneSpaceFordevice {
+ margin-left: 0px;
+}
+ .svg_buttons {
+ margin-left: 4%;
+}
+.howTo_button {
+    margin-top: 3%;
+    margin-left: 10%;
+}
+.ClickToAnsDiv {
+margin-top: 3%;
+margin-bottom:2%;
+}
+ .inputAndDoneSpace {
+ margin-left: 1%;
+ margin-bottom: 2%;
+}
+.blankMessage_New, .incomplete_New {
+    margin-top: 0px;
+}
+.svg_sub {
+    display: block;
+}
+.t1 {
+    width: 82%;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+ @media (min-width: 521px) and (max-width: 560px) and (orientation:portrait) {
+ .clear {
+ margin-left: 22%;
+}
+.input {
+float:right;
+}
+.InputAndDoneTbl {
+width:100%;
+}
+.device_x {
+width:5%;
+}
+.InptDnTd1 {
+width:60%;
+}
+.device_tick {
+width:10%;
+position:relative;
+}
+.InptDnTd2 {
+width:35%;
+}
+.input {
+ width: 100%;
+}
+ .doneDiv {
+ width: 75%;
+ float: left;
+}
+.done1 {
+    width: 17%;
+    float: none;
+    height: 19px;
+}
+ .ans_tick {
+width:57%;
+ left: 25%;
+}
+.svg_tick {
+ width: 42%;
+}
+ .svg_table {
+ width: 100%;
+}
+.lined, .lined1 {
+ font-size: 1.4em;
+}
+.blank_dot_btn_img, .filled_dot_btn_img, .left_btn_img, .right_btn_img, .reset_btn_img, .blank_br_open_img, .blank_br_close_img, .filled_br_open_img, .filled_br_close_img {
+ height: 11px;
+ width: 11px;
+}
+.btn_h {
+height:17px;
+}
+.svg_buttons {
+ margin-left: 10%;
+}
+.reset {
+    font-size: .7em;
+    width: 17%;
+    height: 15px;
+    margin-left: 10%;
+    vertical-align: middle;
+}
+.howTo_button {
+font-size:10px;
+padding:2px;
+}
+ .inputAndDoneSpace {
+ position: absolute;
+ bottom: 0%;
+ left: 0;
+ width: auto;
+ margin-left: -25%;
+}
+.svg_result {
+ width: 70%;
+}
+.main_solution {
+ width: 38%;
+ margin-left: 3%;
+}
+.inputAndDoneSpaceFordevice {
+ margin-left: 0px;
+}
+ .svg_buttons {
+ margin-left: 4%;
+}
+.howTo_button {
+    margin-top: 3%;
+    margin-left: 10%;
+}
+.ClickToAnsDiv {
+margin-top: 3%;
+margin-bottom:2%;
+}
+ .inputAndDoneSpace {
+ margin-left: 1%;
+ margin-bottom: 2%;
+}
+.blankMessage_New, .incomplete_New {
+    margin-top: 0px;
+}
+.svg_sub {
+    display: block;
+}
+.t1 {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+ @media (min-width: 561px) and (max-width: 640px) and (orientation:portrait) {
+ .clear {
+ margin-left: 22%;
+}
+.input {
+float:right;
+}
+.InputAndDoneTbl {
+width:100%;
+}
+.device_x {
+width:5%;
+}
+.InptDnTd1 {
+width:60%;
+}
+.device_tick {
+width:10%;
+position:relative;
+}
+.InptDnTd2 {
+width:35%;
+}
+.input {
+ width: 100%;
+}
+ .doneDiv {
+ width: 75%;
+ float: left;
+}
+.done1 {
+    width: 17%;
+    float: none;
+    height: 19px;
+    margin-left: 0%;
+}
+ .ans_tick {
+width:57%;
+ left: 25%;
+}
+.svg_tick {
+ width: 42%;
+}
+ .svg_table {
+ width: 100%;
+}
+.lined, .lined1 {
+ font-size: 1.3em;
+}
+.blank_dot_btn_img, .filled_dot_btn_img, .left_btn_img, .right_btn_img, .reset_btn_img, .blank_br_open_img, .blank_br_close_img, .filled_br_open_img, .filled_br_close_img {
+ height: 11px;
+ width: 11px;
+}
+.btn_h {
+height:17px;
+}
+.svg_buttons {
+ margin-left: 10%;
+}
+.reset {
+    font-size: .7em;
+    width: 17%;
+    height: 17px;
+    margin-left: 10%;
+    vertical-align: middle;
+}
+.howTo_button {
+font-size:11px;
+padding:2px;
+}
+ .inputAndDoneSpace {
+ position: absolute;
+ bottom: 0%;
+ left: 0;
+ width: auto;
+ margin-left: -25%;
+}
+.svg_result {
+ width: 70%;
+}
+.main_solution {
+ width: 38%;
+ margin-left: 3%;
+}
+.inputAndDoneSpaceFordevice {
+ margin-left: 0px;
+}
+ .svg_buttons {
+ margin-left: 12%;
+}
+.howTo_button {
+    margin-top: 3%;
+    margin-left: 10%;
+}
+.ClickToAnsDiv {
+margin-top: 3%;
+margin-bottom:2%;
+}
+ .inputAndDoneSpace {
+ margin-left: 1%;
+ margin-bottom: 2%;
+}
+.blankMessage_New, .incomplete_New {
+    margin-top: 0px;
+}
+.svg_sub {
+    display: block;
+}
+.t1 {
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+}
+ @media (min-width:641px) and (max-width: 720px) and (orientation:portrait) {
+ .clear {
+ margin-left: 22%;
+}
+.input {
+float:right;
+}
+.InputAndDoneTbl {
+width:100%;
+}
+.device_x {
+width:5%;
+}
+.InptDnTd1 {
+width:60%;
+}
+.device_tick {
+width:10%;
+position:relative;
+}
+.InptDnTd2 {
+width:35%;
+}
+.input {
+ width: 100%;
+}
+ .doneDiv {
+ width: 75%;
+ float: left;
+}
+.done1 {
+    width: 17%;
+    float: none;
+    height: 23px;
+    margin-left: 0%;
+}
+ .ans_tick {
+width:46%;
+ left: 25%;
+}
+.svg_tick {
+ width: 32%;
+}
+ .svg_table {
+ width: 100%;
+}
+.lined, .lined1 {
+ font-size: 1.3em;
+}
+.blank_dot_btn_img, .filled_dot_btn_img, .left_btn_img, .right_btn_img, .reset_btn_img, .blank_br_open_img, .blank_br_close_img, .filled_br_open_img, .filled_br_close_img {
+ height: 11px;
+ width: 11px;
+}
+.btn_h {
+height:17px;
+}
+.svg_buttons {
+ margin-left: 10%;
+}
+.reset {
+    font-size: .7em;
+    width: 17%;
+    height: 20px;
+    margin-left: 12%;
+    vertical-align: middle;
+}
+.howTo_button {
+font-size:11px;
+padding:2px;
+}
+ .inputAndDoneSpace {
+ position: absolute;
+ bottom: 0%;
+ left: 0;
+ width: auto;
+ margin-left: -25%;
+}
+.svg_result {
+ width: 70%;
+}
+.main_solution {
+ width: 38%;
+ margin-left: 3%;
+}
+.inputAndDoneSpaceFordevice {
+ margin-left: 0px;
+}
+ .svg_buttons {
+ margin-left: 12%;
+}
+.howTo_button {
+    margin-top: 3%;
+    margin-left: 12%;
+}
+.ClickToAnsDiv {
+margin-top: 3%;
+margin-bottom:2%;
+}
+ .inputAndDoneSpace {
+ margin-left: 1%;
+ margin-bottom: 2%;
+}
+.blankMessage_New, .incomplete_New {
+    margin-top: 0px;
+}
+.svg_sub {
+    display: block;
+}
+}
+ @media (min-width: 721px) and (max-width: 800px) and (orientation:portrait) {
+ .clear {
+ margin-left: 22%;
+}
+.input {
+float:right;
+}
+.InputAndDoneTbl {
+width:100%;
+}
+.device_x {
+width:5%;
+}
+.InptDnTd1 {
+width:60%;
+}
+.device_tick {
+width:10%;
+position:relative;
+}
+.InptDnTd2 {
+width:35%;
+}
+.input {
+ width: 100%;
+}
+ .doneDiv {
+ width: 75%;
+ float: left;
+}
+.done1 {
+    width: 17%;
+    float: none;
+    height: 22px;
+    margin-left: 0%;
+}
+ .ans_tick {
+width:46%;
+ left: 25%;
+}
+.svg_tick {
+ width: 32%;
+}
+ .svg_table {
+ width: 100%;
+}
+.lined, .lined1 {
+ font-size: 1.1em;
+}
+.blank_dot_btn_img, .filled_dot_btn_img, .left_btn_img, .right_btn_img, .reset_btn_img, .blank_br_open_img, .blank_br_close_img, .filled_br_open_img, .filled_br_close_img {
+ height: 11px;
+ width: 11px;
+}
+.btn_h {
+height:17px;
+}
+.svg_buttons {
+ margin-left: 10%;
+}
+.reset {
+    font-size: .6em;
+    width: 17%;
+    height: 20px;
+    margin-left: 12%;
+    vertical-align: middle;
+}
+.howTo_button {
+font-size:13px;
+padding:2px;
+}
+ .inputAndDoneSpace {
+ position: absolute;
+ bottom: 0%;
+ left: 0;
+ width: auto;
+ margin-left: -25%;
+}
+.svg_result {
+ width: 70%;
+}
+.main_solution {
+ width: 38%;
+ margin-left: 3%;
+}
+.inputAndDoneSpaceFordevice {
+ margin-left: 0px;
+}
+ .svg_buttons {
+ margin-left: 12%;
+}
+.howTo_button {
+    margin-top: 3%;
+    margin-left: 12%;
+}
+.ClickToAnsDiv {
+margin-top: 3%;
+margin-bottom:2%;
+}
+ .inputAndDoneSpace {
+ margin-left: 1%;
+ margin-bottom: 2%;
+}
+.blankMessage_New, .incomplete_New {
+    margin-top: 0px;
+}
+.svg_sub {
+    display: block;
+}
+.t1 {
+    width: 82%;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+ @media (min-width: 801px) and (max-width: 880px) and (orientation:portrait) {
+ .clear {
+ margin-left: 22%;
+}
+ .InputAndDoneTbl {
+width:100%;
+}
+.device_x {
+width:5%;
+}
+.InptDnTd1 {
+width:60%;
+}
+.device_tick {
+width:10%;
+position:relative;
+}
+.InptDnTd2 {
+width:35%;
+}
+.input {
+ width: 100%;
+}
+ .doneDiv {
+ width: 75%;
+ float: left;
+}
+.done1 {
+    width: 17%;
+    float: none;
+    margin-left: 0%;
+    height: 22px;
+}
+ .ans_tick {
+width:46%;
+ left: 25%;
+}
+.svg_tick {
+ width: 32%;
+}
+ .svg_table {
+ width: 100%;
+}
+.lined, .lined1 {
+ font-size: 1.1em;
+}
+.blank_dot_btn_img, .filled_dot_btn_img, .left_btn_img, .right_btn_img, .reset_btn_img, .blank_br_open_img, .blank_br_close_img, .filled_br_open_img, .filled_br_close_img {
+ height: 14px;
+ width: 14px;
+}
+.btn_h {
+height:20px;
+}
+.svg_buttons {
+ margin-left: 10%;
+}
+.reset {
+    font-size: .6em;
+    width: 17%;
+    height: 19px;
+    margin-left: 12%;
+    vertical-align: middle;
+}
+.howTo_button {
+font-size:14px;
+padding:2px;
+}
+ .inputAndDoneSpace {
+ position: absolute;
+ bottom: 0%;
+ left: 0;
+ width: auto;
+ margin-left: -25%;
+}
+.svg_result {
+ width: 70%;
+}
+.main_solution {
+ width: 38%;
+ margin-left: 3%;
+}
+.inputAndDoneSpaceFordevice {
+ margin-left: 0px;
+}
+ .svg_buttons {
+ margin-left: 12%;
+}
+.howTo_button {
+    margin-top: 3%;
+    margin-left: 12%;
+}
+.ClickToAnsDiv {
+margin-top: 3%;
+margin-bottom:2%;
+}
+ .inputAndDoneSpace {
+ margin-left: 1%;
+ margin-bottom: 2%;
+}
+.blankMessage_New, .incomplete_New {
+    margin-top: 0px;
+}
+.svg_sub {
+    display: block;
+}
+.t1 {
+    width: 77%;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+ @media (min-width: 881px) and (max-width: 960px) and (orientation:portrait) {
+ .clear {
+ margin-left: 22%;
+}
+.input {
+float:right;
+}
+.AreaForKeypadAndInputInDevice {
+width:58%;
+}
+.InputAndDoneTbl {
+width:100%;
+}
+.device_x {
+width:5%;
+}
+.InptDnTd1 {
+width:60%;
+}
+.device_tick {
+width:10%;
+position:relative;
+}
+.InptDnTd2 {
+width:35%;
+}
+.input {
+ width: 100%;
+}
+ .doneDiv {
+ width: 75%;
+ float: left;
+}
+.done1 {
+    width: 17%;
+    float: none;
+    height: 23px;
+    margin-left: 0%;
+}
+ .ans_tick {
+width:46%;
+ left: 25%;
+}
+.svg_tick {
+ width: 22%;
+}
+ .svg_table {
+ width: 100%;
+}
+.lined, .lined1 {
+ font-size: 1em;
+}
+.blank_dot_btn_img, .filled_dot_btn_img, .left_btn_img, .right_btn_img, .reset_btn_img, .blank_br_open_img, .blank_br_close_img, .filled_br_open_img, .filled_br_close_img {
+ height: 14px;
+ width: 14px;
+}
+.btn_h {
+height:20px;
+}
+.svg_buttons {
+ margin-left: 10%;
+}
+.reset {
+    font-size: .6em;
+    width: 17%;
+    height: 18px;
+    margin-left: 15%;
+    vertical-align: middle;
+}
+.howTo_button {
+font-size:14px;
+padding:2px;
+}
+ .inputAndDoneSpace {
+ position: absolute;
+ bottom: 0%;
+ left: 0;
+ width: auto;
+ margin-left: -25%;
+}
+.svg_result {
+ width: 53%;
+}
+.main_solution {
+ width: 28%;
+ margin-left: 3%;
+}
+.inputAndDoneSpaceFordevice {
+ margin-left: 0px;
+}
+ .svg_buttons {
+ margin-left: 12%;
+}
+.howTo_button {
+    margin-top: 3%;
+    margin-left: 15%;
+}
+.ClickToAnsDiv {
+margin-top: 3%;
+margin-bottom:2%;
+}
+ .inputAndDoneSpace {
+ margin-left: 1%;
+ margin-bottom: 2%;
+}
+.blankMessage_New, .incomplete_New {
+    margin-top: 0px;
+}
+.svg_sub {
+    display: block;
+}
+.t1 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+ @media (min-width: 961px) and (max-width: 1040px) and (orientation:portrait) {
+ .clear {
+ margin-left: 22%;
+}
+.input {
+float:right;
+}
+.InputAndDoneTbl {
+width:100%;
+}
+.device_x {
+width:5%;
+}
+.InptDnTd1 {
+width:60%;
+}
+.device_tick {
+width:10%;
+position:relative;
+}
+.InptDnTd2 {
+width:35%;
+}
+.input {
+ width: 100%;
+}
+ .doneDiv {
+ width: 75%;
+ float: left;
+}
+.done1 {
+    width: 17%;
+    float: none;
+    height: 30px;
+    margin-left: 0%;
+}
+ .ans_tick {
+width:36%;
+ left: 25%;
+}
+.svg_tick {
+ width: 22%;
+}
+ .svg_table {
+ width: 100%;
+}
+.lined, .lined1 {
+ font-size: .8em;
+}
+.blank_dot_btn_img, .filled_dot_btn_img, .left_btn_img, .right_btn_img, .reset_btn_img, .blank_br_open_img, .blank_br_close_img, .filled_br_open_img, .filled_br_close_img {
+ height: 14px;
+ width: 14px;
+}
+.btn_h {
+height:20px;
+}
+.svg_buttons {
+ margin-left: 10%;
+}
+.reset {
+    font-size: .6em;
+    width: 17%;
+    height: 28px;
+    margin-left: 15%;
+    vertical-align: middle;
+}
+.howTo_button {
+font-size:15px;
+padding:2px;
+}
+ .inputAndDoneSpace {
+ position: absolute;
+ bottom: 0%;
+ left: 0;
+ width: auto;
+ margin-left: -25%;
+}
+.svg_result {
+ width: 53%;
+}
+.main_solution {
+ width: 28%;
+ margin-left: 3%;
+}
+.inputAndDoneSpaceFordevice {
+ margin-left: 0px;
+}
+
+ .svg_buttons {
+ margin-left: 12%;
+}
+.howTo_button {
+    margin-top: 3%;
+    margin-left: 15%;
+}
+.ClickToAnsDiv {
+margin-top: 3%;
+margin-bottom:2%;
+}
+ .inputAndDoneSpace {
+ margin-left: 1%;
+ margin-bottom: 2%;
+}
+.blankMessage_New, .incomplete_New {
+    margin-top: 0px;
+}
+.svg_sub {
+    display: block;
+}
+.t1 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+ @media (min-width: 1041px) and (orientation:portrait) {
+ .clear {
+ margin-left: 22%;
+}
+.input {
+float:right;
+}
+.InputAndDoneTbl {
+width:100%;
+}
+.device_x {
+width:5%;
+}
+.InptDnTd1 {
+width:60%;
+}
+.device_tick {
+width:10%;
+position:relative;
+}
+.InptDnTd2 {
+width:35%;
+}
+.input {
+ width: 100%;
+}
+ .doneDiv {
+ width: 75%;
+ float: left;
+}
+.done1 {
+    width: 17%;
+    float: none;
+    margin-left: 0%;
+}
+ .ans_tick {
+width:36%;
+ left: 25%;
+}
+.svg_tick {
+ width: 22%;
+}
+ .svg_table {
+ width: 100%;
+}
+.lined, .lined1 {
+ font-size: .7em;
+}
+.blank_dot_btn_img, .filled_dot_btn_img, .left_btn_img, .right_btn_img, .reset_btn_img, .blank_br_open_img, .blank_br_close_img, .filled_br_open_img, .filled_br_close_img {
+ height: 18px;
+ width: 18px;
+}
+.btn_h {
+height:24px;
+}
+.svg_buttons {
+ margin-left: 10%;
+}
+.reset {
+    font-size: .6em;
+    width: 17%;
+    height: 30px;
+    margin-left: 15%;
+    vertical-align: middle;
+}
+.howTo_button {
+font-size:17px;
+padding:2px;
+}
+ .inputAndDoneSpace {
+ position: absolute;
+ bottom: 0%;
+ left: 0;
+ width: auto;
+ margin-left: -25%;
+}
+.svg_result {
+ width: 53%;
+}
+.main_solution {
+ width: 28%;
+ margin-left: 3%;
+}
+.inputAndDoneSpaceFordevice {
+ margin-left: 0px;
+}
+.done1 {
+ height: 30px;
+}
+ .svg_buttons {
+ margin-left: 12%;
+}
+.howTo_button {
+    margin-top: 4%;
+    margin-left: 15%;
+}
+ .ClickToAnsDiv {
+margin-top: 3%;
+margin-bottom:2%;
+}
+ .inputAndDoneSpace {
+ margin-left: 1%;
+ margin-bottom: 2%;
+}
+.blankMessage_New, .incomplete_New {
+    margin-top: 0px;
+}
+.svg_sub {
+    display: block;
+}
+.t1 {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+}
+.middle{
+	width:100%;
+	display:inline-block;
+}
+.svg_result {
+    margin-top: 1.25em;
+}
+
+
+
+
+
+
+/*U+0221A
+HEX CODE&#x221A;
+HTML CODE&#8730;
+HTML ENTITY&radic;
+CSS CODE\221A
+*/
+
+
+
+
+
+
+
+/*----- 32 -------*/

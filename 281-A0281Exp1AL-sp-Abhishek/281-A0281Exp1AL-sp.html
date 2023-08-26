@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html class="full" lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=9,10,11 IE=EDGE" />
+<meta name="viewport" content="width=device-width">
+<link type="text/css" rel="stylesheet" href="https://www.educosoft.com/sharedSite/HTML5Common/MFExample/baseForExample_V2.css">
+<script src="template_files/jquery/jquery.min.js"></script>
+<script src="template_files/jquery/calci.js"></script>
+<script src="template_files/jquery/functionUses.js"></script>
+<script src="content_files/content.js"></script>
+<script src="template_files/jquery/svg.js"></script>
+<script src="content_files/app.js"></script>
+<script src="https://www.educosoft.com/sharedSite/HTML5Common/MFExample/baseForNumberLine.js"></script>
+<script src="template_files/jquery/middleForAll.js"></script>
+<link type="text/css" rel="stylesheet" href="content_files/content.css">
+<script src="template_files/jquery/container_height.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+  <div class="header">
+    <div class="new_h">
+      <div class="section1">
+        <h3>Objetivo: <font color='#009'> Intervalos y sus Gáficas </font></h3>
+      </div>
+      <!-- section1 closed-->
+      <div class="wholeSection">
+        <div class="section2">
+          <input type="button" value="Otra Versión" class="newSet headerButton" onClick="nextQuesGeneration()">
+        <input type="button" value="Solución:" class="solution headerButton" onClick="showSolution()">
+         
+        </div>
+        <!-- section2 closed-->
+        <div class="section3">
+          <div class="inputAndDoneSpace">
+            <div class="remark"><span class="incorrect">Incorrecto!</span><span class="correct">Correcto!</span> <span class="p_correct">partially correct!</span></div>
+          </div>
+          <div class="questionSection">
+            <div class="question">Dibuja la gráfica del intervalo:<br>
+              <table class="question_table">
+                <tr>
+                  <td class="bold td1"><!--  <div class="fraction">
+                                    <span class="fup val1"></span>
+                                    <span class="bar">/</span>
+                                    <span class="fdn val2"></span>
+                                </div> <i>x</i> <span class="val3"></span> <span class="val4"></span><span class="val5"></span> 
+                                <div class="fraction">
+                                    <span class="fup val6"></span>
+                                    <span class="bar">/</span>
+                                    <span class="fdn val7"></span>
+                                </div> <i>x</i> <span class="val8"></span> <span class="val9"></span>
+       -->
+                    <!--<span class="val8"></span>&nbsp;<span class="val4"></span><span class="val6 margin_btwn"></span> <span class="val9"></span>&nbsp;<span class="val3"></span><span><i>x</i></span><span class="val7 margin_btwn"></span><span class="val10"></span>&nbsp;<span class="val5"></span>-->
+                    <span class="val5">sign1</span> <span class="val1">n1</span>
+                    <span class="hidden">1</span><span class="val3">ieq_1</span><span class="hidden">1</span>
+                    <i>x</i>
+                    <span class="hidden">1</span><span class="val4">ieq_2</span><span class="hidden">1</span>
+                    <span class="val6">sign2</span> <span class="val2">n2</span>
+                    </td>
+                  <!--<td class="bold td2 p_hide"><i>x</i></td>-->
+                  <!--<td class="td3 p_hide"><div class="inputDiv">
+                      <input type="text" class="input1 input" id="inputText" style="text-transform:lowercase;" spellcheck="false" tabindex="1" onKeyPress="keyPressed(event)" onFocus="myFocus(this)" autocomplete="off"/>
+                    </div></td>-->
+                  <td class="td4 p_hide"><div class="ans_tick"> <img src="image/tick.png" style="width:100%" class="ans_correct_tick"/> <img src="image/cross.png" style="width:60%" class="ans_wrong_tick"/> </div>
+                  </td>
+                  
+                </tr>
+              </table>
+            </div>
+            <!-- div question-->
+          </div>
+          <!-- questionSection closed-->
+          <table class="svg_table">
+            <tr>
+              <td class="svg_td1"><div class="svg_div">
+                  <svg viewBox="0 10 675 50" style="stroke-width:2; stroke:green"  class="svg1">
+                    <line x1="40"  y1="20" x2="640" y2="20" stroke-width="2" stroke="blue"/>
+                    <line x1="40"  y1="35" x2="640" y2="35" stroke-width="2" stroke="blue" />
+                    <line x1="640"  y1="20" x2="640" y2="12" stroke-width="2" stroke="blue" />
+                    <line x1="640"  y1="35" x2="640" y2="43" stroke-width="2" stroke="blue" />
+                    <line x1="640"  y1="12" x2="660" y2="30" stroke-width="2" stroke="blue" />
+                    <line x1="640"  y1="43" x2="660" y2="30" stroke-width="2" stroke="blue" />
+                    <line x1="40"  y1="20" x2="40" y2="12" stroke-width="2" stroke="blue" />
+                    <line x1="40"  y1="35" x2="40" y2="43" stroke-width="2" stroke="blue" />
+                    <line x1="40"  y1="12" x2="20" y2="30" stroke-width="2" stroke="blue" />
+                    <line x1="40"  y1="43" x2="20" y2="30" stroke-width="2" stroke="blue" />
+                    <text x="58"  y="59" stroke="red" stroke-width="1" fill="red" class="lined lined3">-9</text>
+                    <text x="88"  y="59" stroke="red" stroke-width="1" fill="red" class="lined lined4">-8</text>
+                    <text x="118" y="59" stroke="red" stroke-width="1" fill="red" class="lined lined5">-7</text>
+                    <text x="148" y="59" stroke="red" stroke-width="1" fill="red" class="lined lined6">-6</text>
+                    <text x="178" y="59" stroke="red" stroke-width="1" fill="red" class="lined lined7">-5</text>
+                    <text x="210" y="59" stroke="red" stroke-width="1" fill="red" class="lined lined8">-4</text>
+                    <text x="240" y="59" stroke="red" stroke-width="1" fill="red" class="lined lined9">-3</text>
+                    <text x="270" y="59" stroke="red" stroke-width="1" fill="red" class="lined lined10">-2</text>
+                    <text x="300" y="59" stroke="red" stroke-width="1" fill="red" class="lined lined11">-1</text>
+                    <text x="336" y="59" stroke="red" stroke-width="1" fill="red" class="lined lined12">0</text>
+                    <text x="366" y="59" stroke="red" stroke-width="1" fill="red" class="lined lined13">1</text>
+                    <text x="396" y="59" stroke="red" stroke-width="1" fill="red" class="lined lined14">2</text>
+                    <text x="426" y="59" stroke="red" stroke-width="1" fill="red" class="lined lined15">3</text>
+                    <text x="456" y="59" stroke="red" stroke-width="1" fill="red" class="lined lined16">4</text>
+                    <text x="486" y="59" stroke="red" stroke-width="1" fill="red" class="lined lined17">5</text>
+                    <text x="516" y="59" stroke="red" stroke-width="1" fill="red" class="lined lined18">6</text>
+                    <text x="546" y="59" stroke="red" stroke-width="1" fill="red" class="lined lined19">7</text>
+                    <text x="576" y="59" stroke="red" stroke-width="1" fill="red" class="lined lined20">8</text>
+                    <text x="606" y="59" stroke="red" stroke-width="1" fill="red" class="lined lined21">9</text>
+                    <line x1="70"  y1="30" x2="70"  y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark2"/>
+                    <line x1="100" y1="30" x2="100" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark3"/>
+                    <line x1="130" y1="30" x2="130" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark4"/>
+                    <line x1="160" y1="30" x2="160" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark5"/>
+                    <line x1="190" y1="30" x2="190" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark6"/>
+                    <line x1="220" y1="30" x2="220" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark7"/>
+                    <line x1="250" y1="30" x2="250" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark8"/>
+                    <line x1="280" y1="30" x2="280" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark9"/>
+                    <line x1="310" y1="30" x2="310" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark10"/>
+                    <line x1="340" y1="30" x2="340" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark11"/>
+                    <line x1="370" y1="30" x2="370" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark12"/>
+                    <line x1="400" y1="30" x2="400" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark13"/>
+                    <line x1="430" y1="30" x2="430" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark14"/>
+                    <line x1="460" y1="30" x2="460" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark15"/>
+                    <line x1="490" y1="30" x2="490" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark16"/>
+                    <line x1="520" y1="30" x2="520" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark17"/>
+                    <line x1="550" y1="30" x2="550" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark18"/>
+                    <line x1="580" y1="30" x2="580" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark19"/>
+                    <line x1="610" y1="30" x2="610" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark20"/>
+                    
+                    
+                    
+                    
+<!--                     <rect x="40" y="21" width="599" height="12" fill="yellow" stroke="yellow" class="fill_color_new"/>                    
+-->                      <rect x="40" y="21" width="29" height="12" fill="blue" stroke="blue" class="fill_color"/>
+                      <rect x="40" y="21" width="29" height="12" fill="blue" stroke="blue" class="fill_color1"/>
+                      <rect x="40" y="21" width="29" height="12" fill="blue" stroke="blue" class="fill_color2"/>                    
+                    
+                    
+                    
+                    
+                    
+                    <circle cx="70" cy="27.6" r="5.5" fill="red" stroke="black" class="filled_dot"/>
+                    <circle cx="70" cy="27.6" r="5.5" fill="white" stroke="red" class="blank_dot"/>
+                    <circle cx="70" cy="27.6" r="5.5" fill="red" stroke="black" class="filled_dot1"/>
+                    <circle cx="70" cy="27.6" r="5.5" fill="white" stroke="red" class="blank_dot1"/>
+                    <path d="M75 15 q -12 15 0 25" stroke="red" stroke-width="3" fill="none" class="new_comm blank_br_open"/>
+                    <path d="M65 15 q 12 15 0 25" stroke="red" stroke-width="3" fill="none" class="new_comm blank_br_close"/>
+                    <path d="M70 15  70 40 h0 10 m-11 -25 h0 10" stroke="red" stroke-width="3" fill="none" class="new_comm filled_br_open"/>
+                    <path d="M70 15  70 40 h0 -10 m1.2 -25 h0 10" stroke="red" stroke-width="3" fill="none" class="new_comm filled_br_close"/>
+                    <path d="M75 15 q -12 15 0 25" stroke="red" stroke-width="3" fill="none" class="new_comm1 blank_br_open1"/>
+                    <path d="M65 15 q 12 15 0 25" stroke="red" stroke-width="3" fill="none" class="new_comm1 blank_br_close1"/>
+                    <path d="M70 15  70 40 h0 10 m-11 -25 h0 10" stroke="red" stroke-width="3" fill="none" class="new_comm1 filled_br_open1"/>
+                    <path d="M70 15  70 40 h0 -10 m1.2 -25 h0 10" stroke="red" stroke-width="3" fill="none" class="new_comm1 filled_br_close1"/>
+                  </svg>
+                </div></td>
+              <td class="svg_td2"><div class="svg_tick"> <img src="image/tick.png" style="width:100%" class="svg_correct_tick"/> <img src="image/cross.png" style="width:60%" class="svg_wrong_tick"/> </div></td>
+              <!-- <td class="svg_td3">
+   <button value="Check" class="svg_check">Check</button>
+ </td>
+-->
+            </tr>
+          </table>
+          <div class="svg_buttons">
+            <button class="blank_dot_btn btn_h" value="right" onClick="blank_dot_btn()" on><img src="image/UnFiledDot.png"  class="blank_dot_btn_img svg_bt"/></button>
+            <button class="filled_dot_btn btn_h" value="right" onClick="filled_dot_btn()" on><img src="image/filedDot.PNG"  class="filled_dot_btn_img svg_bt" /></button>
+            <button class="blank_br_open_btn btn_h" value="right" onClick="blank_br_open()" on><img src="image/p_open_br.png"     class="blank_br_open_img svg_bt"/></button>
+            <button class="blank_br_close_btn btn_h" value="right" onClick="blank_br_close()" on><img src="image/p_close_br.png"  class="blank_br_close_img svg_bt" /></button>
+            <button class="filled_br_open_btn btn_h" value="right" onClick="filled_br_open()" on><img src="image/open_br.png"     class="filled_br_open_img svg_bt"/></button>
+            <button class="filled_br_close_btn btn_h" value="right" onClick="filled_br_close()" on><img src="image/close_br.png"  class="filled_br_close_img svg_bt" /></button>
+            
+            <div class="svg_sub">
+            <button class="done1 p_hide" onClick="doneButton()">Hecho</button>
+            
+            <button class="reset" value="reset" onClick="resetFun()" >Rehacer</button>
+            <button class="howTo_button" value="How to enter graph">Cómo trazar la gráfica</button>
+            
+            </div>
+          </div>
+          <!--          <div class="ClickToAnsDiv for_portrait"> Click here for calc </div> 
+-->
+        </div>
+        <!-- section3 closed-->
+      </div>
+      <!-- wholeSection closed-->
+    </div>
+    <!-- new_h closed-->
+    <div class="section4 KeypadArea">
+      
+    </div>
+    <!-- section4 closed-->
+  </div>
+  <!-- header closed-->
+  <div class="container">
+    <!--blankMessage Start-->
+    <div class="prompt_New blankMessage_New"><b><span class="enter"></span> la <span class="value">.</b></div>
+    
+
+    <div class="howTo_div">
+      <div class="step_cross">
+        <div class="step_cross_stp">Pasos :</div>
+        <div class="step_cross_img"><img src="image/crossImg1.png" style="width:100%"/></div>
+      </div>
+      <div class="howTo_list">
+        <ul>
+          <li>Oprime el número en el punto extremo.</li>
+          <li>Selecciona el símbolo correspondiente.</li>
+          <li>Selecciona la dirección. </li>
+          <li>Entonces, oprime Hecho.</li>
+        </ul>
+      </div>
+    </div>
+    <!-- howTo_div end -->
+    <div class="AreaForKeypadAndInputInDevice">
+      
+    </div>
+    <!-- AreaForKeypadAndInputInDevice -->
+    <div class="solutionContainer">
+      <div class="SolutionRemark">
+        <div class="solutionText"><i>Solución</i>:</div>
+      
+      </div>
+      
+        <div class="solutionMainSteps">
+          <div class="middle">
+            <div class="main_Div">
+            	<table class="t1">
+                	<tr>
+                    	<td>
+                        	Marca los números <span class="val1 bold"></span> y <span class="val2 bold"></span> sobre la recta numérica.
+                        </td>
+                    </tr>
+                    <tr>
+                    	<td><span class="val7"></span></td>
+                    </tr>
+                    <tr>
+                    	<td>
+                        	Sombrea el segmento que une       <b><span class="val5"></span> <span class="val1"></span></b> y <b><span class="val6"></span> <span class="val2"></span></b> oprimiendo el intervalo en la recta. Este segmento          entre        <b><span class="val5"></span> <span class="val1"></span></b> y <b><span class="val6"></span> <span class="val2"></span></b> es la gráfica del intervalo &nbsp;
+                            <b style="white-space:nowrap;"><span class="val5">sign1</span> <span class="val1">n1</span>
+                            <span class="hidden">1</span><span class="val3">ieq_1</span><span class="hidden">1</span>
+                            <i>x</i>
+                            <span class="hidden">1</span><span class="val4">ieq_2</span><span class="hidden">1</span>
+                            <span class="val6">sign2</span> <span class="val2">n2</span> </b>.
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="svg_result">
+              <svg viewBox="0 10 675 50" style="stroke-width:2; stroke:green"  class="svg1">
+                <line x1="40"  y1="20" x2="640" y2="20" stroke-width="2" stroke="blue"/>
+                <line x1="40"  y1="35" x2="640" y2="35" stroke-width="2" stroke="blue" />
+                <line x1="640"  y1="20" x2="640" y2="12" stroke-width="2" stroke="blue" />
+                <line x1="640"  y1="35" x2="640" y2="43" stroke-width="2" stroke="blue" />
+                <line x1="640"  y1="12" x2="660" y2="30" stroke-width="2" stroke="blue" />
+                <line x1="640"  y1="43" x2="660" y2="30" stroke-width="2" stroke="blue" />
+                <line x1="40"  y1="20" x2="40" y2="12" stroke-width="2" stroke="blue" />
+                <line x1="40"  y1="35" x2="40" y2="43" stroke-width="2" stroke="blue" />
+                <line x1="40"  y1="12" x2="20" y2="30" stroke-width="2" stroke="blue" />
+                <line x1="40"  y1="43" x2="20" y2="30" stroke-width="2" stroke="blue" />
+                <text x="58"  y="59" stroke="red" stroke-width="1" fill="red" class="lined1 ">-9</text>
+                <text x="88"  y="59" stroke="red" stroke-width="1" fill="red" class="lined1 ">-8</text>
+                <text x="118" y="59" stroke="red" stroke-width="1" fill="red" class="lined1 ">-7</text>
+                <text x="148" y="59" stroke="red" stroke-width="1" fill="red" class="lined1 ">-6</text>
+                <text x="178" y="59" stroke="red" stroke-width="1" fill="red" class="lined1 ">-5</text>
+                <text x="210" y="59" stroke="red" stroke-width="1" fill="red" class="lined1 ">-4</text>
+                <text x="240" y="59" stroke="red" stroke-width="1" fill="red" class="lined1 ">-3</text>
+                <text x="270" y="59" stroke="red" stroke-width="1" fill="red" class="lined1 ">-2</text>
+                <text x="300" y="59" stroke="red" stroke-width="1" fill="red" class="lined1 ">-1</text>
+                <text x="336" y="59" stroke="red" stroke-width="1" fill="red" class="lined1 ">0</text>
+                <text x="366" y="59" stroke="red" stroke-width="1" fill="red" class="lined1 ">1</text>
+                <text x="396" y="59" stroke="red" stroke-width="1" fill="red" class="lined1 ">2</text>
+                <text x="426" y="59" stroke="red" stroke-width="1" fill="red" class="lined1 ">3</text>
+                <text x="456" y="59" stroke="red" stroke-width="1" fill="red" class="lined1 ">4</text>
+                <text x="486" y="59" stroke="red" stroke-width="1" fill="red" class="lined1 ">5</text>
+                <text x="516" y="59" stroke="red" stroke-width="1" fill="red" class="lined1 ">6</text>
+                <text x="546" y="59" stroke="red" stroke-width="1" fill="red" class="lined1 ">7</text>
+                <text x="576" y="59" stroke="red" stroke-width="1" fill="red" class="lined1 ">8</text>
+                <text x="606" y="59" stroke="red" stroke-width="1" fill="red" class="lined1 ">9</text>
+                <line x1="70"  y1="30" x2="70"  y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark2_1"/>
+                <line x1="100" y1="30" x2="100" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark3_1"/>
+                <line x1="130" y1="30" x2="130" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark4_1"/>
+                <line x1="160" y1="30" x2="160" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark5_1"/>
+                <line x1="190" y1="30" x2="190" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark6_1"/>
+                <line x1="220" y1="30" x2="220" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark7_1"/>
+                <line x1="250" y1="30" x2="250" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark8_1"/>
+                <line x1="280" y1="30" x2="280" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark9_1"/>
+                <line x1="310" y1="30" x2="310" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark10_1"/>
+                <line x1="340" y1="30" x2="340" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark11_1"/>
+                <line x1="370" y1="30" x2="370" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark12_1"/>
+                <line x1="400" y1="30" x2="400" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark13_1"/>
+                <line x1="430" y1="30" x2="430" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark14_1"/>
+                <line x1="460" y1="30" x2="460" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark15_1"/>
+                <line x1="490" y1="30" x2="490" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark16_1"/>
+                <line x1="520" y1="30" x2="520" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark17_1"/>
+                <line x1="550" y1="30" x2="550" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark18_1"/>
+                <line x1="580" y1="30" x2="580" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark19_1"/>
+                <line x1="610" y1="30" x2="610" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark20_1"/>
+<!--                <rect x="40" y="21" width="29" height="12" fill="yellow" stroke="yellow" class="ans_fill_color"/>
+-->                <rect x="40" y="21" width="29" height="12" fill="blue" stroke="blue" class="ans_fill_color1"/>
+                <circle cx="70" cy="27.6" r="5.5" fill="red" stroke="black" class="ans_filled_dot"/>
+                <circle cx="70" cy="27.6" r="5.5" fill="white" stroke="red" class="ans_blank_dot"/>
+                <circle cx="70" cy="27.6" r="5.5" fill="red" stroke="black" class="ans_filled_dot1"/>
+                <circle cx="70" cy="27.6" r="5.5" fill="white" stroke="red" class="ans_blank_dot1"/>
+              </svg>
+            </div>
+        
+        </div>
+        <!-- solutionMainSteps end -->
+      </div>
+      <!-- middle end -->
+    </div>
+    <!-- solutionContainer closed-->
+  </div>
+  <!-- container closed-->
+  <div class="footer">
+    <table class="FooterTable">
+      <tr>
+        <td class="FtrTab_Td1" width="10%"><img src="image/print.png" class="print"/></td>
+        <td class="FtrTab_Td2" width="10%"><img src="image/AutoRun.png" class="autorun"/></td>
+        <td class="FtrTab_Td3" width="50%"><div class="SpaceBarDiv">
+            <button class="SpaceBarButton spacebar" onClick="spacebarClickFunction()" >Click or Press Spacebar to Continue</button>
+          </div></td>
+        <td class="FtrTab_Td4" width="30%"><div class="Copyright">Copyright © 2005 – 2019 <span class="ForDeviceCopy">Educo Int. Inc.</span></div></td>
+      </tr>
+    </table>
+  </div>
+  <!-- footer closed-->
+</div>
+<!-- container-fluid closed-->
+</body>
+</html>
